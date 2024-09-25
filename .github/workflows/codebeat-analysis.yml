@@ -33,6 +33,5 @@ jobs:
           CODEBEAT_PROJECT_ID: ${{ secrets.CODEBEAT_PROJECT_ID }}
           CODEBEAT_TOKEN: ${{ secrets.CODEBEAT_TOKEN }}
         run: |
-          curl -s https://raw.githubusercontent.com/codebeat/codebeat-action/master/install.sh | bash  # Replace with the actual URL if different
+          curl -s https://codebeat.co/install.sh | bash 
           codebeat analyze --token $CODEBEAT_TOKEN --project-id $CODEBEAT_PROJECT_ID
-
