@@ -4,7 +4,7 @@ from github import Github
 
 # Set up your API keys from environment variables
 openai.api_key = os.getenv("OPENAI_API_KEY")
-personal_access_token = os.getenv("PERSONAL_ACCESS_TOKEN")
+personal_access_token = os.getenv("PAT")
 
 # Initialize GitHub API client with the Personal Access Token (PAT)
 g = Github(personal_access_token)
