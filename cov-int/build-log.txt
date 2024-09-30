@@ -1,0 +1,1448 @@
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> cov-build 2023.12.2 (build 78329b8295 p-2023.12-push-50)
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> Coverity Build Capture (64-bit) version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> Dumping from hostname : DESKTOP-GRSMKQB
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> Platform info: Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> cov-build command: cov-build --dir cov-int --no-command --fs-capture-search ./ 
+2024-09-20T09:34:38.879484Z|cov-build|70312|info|> cov-build expanded command: cov-build --dir cov-int --no-command --fs-capture-search ./ 
+2024-09-20T09:34:38.903418Z|cov-build|70312|info|> build command: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-build.exe
+2024-09-20T09:34:38.903418Z|cov-build|70312|info|> thunk command: cov-build.exe
+2024-09-20T09:34:38.903418Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.903418Z|cov-build|70312|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2024-09-20T09:34:38.903418Z|cov-build|70312|info|> Set COVERITY_BUILD_COMMAND to "C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-build.exe" 
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_ORIG_BUILD_COMMAND to cov-build.exe
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir cov-int --no-command --fs-capture-search ./ 
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set MSBUILDDISABLENODEREUSE to 1
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set UseSharedCompilation to false.
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_BIN to C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_SITE_CC to *-g++;*-gcc;apt;ar;c++;cc;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-*;gcc;gcc-*;go;jar;java;javac;javaw;kotlin;kotlinc;ld;lib;link;microsoft.aspnetcore.mvc.razor.viewcompilation;microsoft.aspnetcore.mvc.razor.viewcompilation-x64;microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll;microsoft.aspnetcore.mvc.razor.viewcompilation-x86;microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll;microsoft.aspnetcore.mvc.razor.viewcompilation.dll;msbuild;nvcc;razor;scala;scalac;vbc;vbc.dll
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to dotnet
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_TEMP to C:/Users/SHERRY~1/AppData/Local/Temp/cov-Sherry's pc/3b577a57a779394a5d948992431c9523
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_COMMON_TEMP to C:\Users\SHERRY~1\AppData\Local\Temp
+2024-09-20T09:34:38.904416Z|cov-build|70312|info|> Set COVERITY_IDIR to C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-4c9968c7db55928c038c749f19f4a5b6.s
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-4c9968c7db55928c038c749f19f4a5b6.m
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_OUTPUT_ENCODING to windows-1252
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_SYSTEM_ENCODING to windows-1252
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_EMIT to C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/emit
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_EMIT to C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/emit
+2024-09-20T09:34:38.905412Z|cov-build|70312|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Set COVERITY_SITE_CC_JVM to apt;java;javac;javaw;kotlin;kotlinc;scala;scalac
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Set COVERITY_CONFIGURED_JVM_LANGUAGES to java;kotlin;scala
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Set COVERITY_USING_CYGWIN to False
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Dumping configuration:
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> User/default configuration:
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Configuration read from: command-line
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: prevent
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>       Node: dir Value: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-1\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-2\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-1\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-2\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ld-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ar-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-3\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-3\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-javac-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-java-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-apt-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-javaw-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-jar-config-0\coverity_config.xml
+2024-09-20T09:34:38.906409Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-jsp-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-android-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-capture-config-files-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_devenv-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_msbuild-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_link-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_lib-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-csc-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-csc-config-1\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-csc-config-2\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-dotnet-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-0\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-1\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-2\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-3\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-4\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-5\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-6\coverity_config.xml
+2024-09-20T09:34:38.907441Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcxx-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-javascript-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-html-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-typescript-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-jsx-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-vue-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-scalac-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-scala-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-vbc-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-vbc-config-1\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ruby-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-php-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-python-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-nvcc-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-go-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-kotlinc-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-kotlin-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-kotlin-module-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: include Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-apex-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-0\coverity_config.xml
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: comp_name Value: gcc
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: comp_translator Value: gcc
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: id Value: gcc-gcc-.*
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.908402Z|cov-build|70312|info|>         Node: id Value: g++-gcc-.*
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: id Value: g++cc-gcc-.*
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>   Node: md5 Value: f9687def489d7080611c957e4baa9367
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-0\coverity_config.xml
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: comp_name Value: g++
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: comp_translator Value: g++
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: comp_lang Value: C++
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: id Value: g++-g++-.*
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-0/../user_nodefs.h
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: id Value: g++cc-g++-.*
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-0/../user_nodefs.h
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>   Node: md5 Value: c28c5312f5cafb3461550021d5db74e3
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-1\coverity_config.xml
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: comp_name Value: gcc-*
+2024-09-20T09:34:38.909399Z|cov-build|70312|info|>         Node: comp_translator Value: gcc
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: id Value: gcc-gcc-*-.*
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-1/../user_nodefs.h
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: id Value: g++-gcc-*-.*
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-1/../user_nodefs.h
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: id Value: g++cc-gcc-*-.*
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-1/../user_nodefs.h
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>   Node: md5 Value: a78235e18925f1b08d266850c13072da
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-2\coverity_config.xml
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.910396Z|cov-build|70312|info|>         Node: comp_name Value: *-gcc
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_translator Value: gcc
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: id Value: gcc-*-gcc-.*
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-2/../user_nodefs.h
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: id Value: g++-*-gcc-.*
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-2/../user_nodefs.h
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: id Value: g++cc-*-gcc-.*
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-2/../user_nodefs.h
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>   Node: md5 Value: 330d30838fa2e2405efcbf0025bbb1d9
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-1\coverity_config.xml
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_name Value: g++-*
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_translator Value: g++
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_lang Value: C++
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.911392Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: id Value: g++-g++-*-.*
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-1/../user_nodefs.h
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: id Value: g++cc-g++-*-.*
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-1/../user_nodefs.h
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>   Node: md5 Value: e2e8095ec14432cf12688981162829bb
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-2\coverity_config.xml
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: comp_name Value: *-g++
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: comp_translator Value: g++
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: comp_lang Value: C++
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: id Value: g++-*-g++-.*
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-2/../user_nodefs.h
+2024-09-20T09:34:38.912428Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: id Value: g++cc-*-g++-.*
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-2/../user_nodefs.h
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>   Node: md5 Value: f63f9f20a2517b24ca5dec686eb6ca2d
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ld-config-0\coverity_config.xml
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: comp_name Value: ld
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: comp_translator Value: ld
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: comp_lang Value: C++
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: comp_generic Value: ld
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: id Value: ld-ld-.*
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ld-config-0/../user_nodefs.h
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|>   Node: md5 Value: b7c847d801b0294a4f0f52192f7f3e16
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.913397Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ar-config-0\coverity_config.xml
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_name Value: ar
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_translator Value: ar
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_lang Value: C++
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_generic Value: ar
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: id Value: ar-ar-.*
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ar-config-0/../user_nodefs.h
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>   Node: md5 Value: a125f1c14acadfc9d06e8f9e711705ce
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-3\coverity_config.xml
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_name Value: cc
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_translator Value: gcc
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: id Value: gcc-cc-.*
+2024-09-20T09:34:38.914383Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-3/../user_nodefs.h
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: id Value: g++-cc-.*
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-3/../user_nodefs.h
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: id Value: g++cc-cc-.*
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-gcc-config-3/../user_nodefs.h
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>   Node: md5 Value: 47a502735554e6c25b61a8bf08e5fa6d
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-3\coverity_config.xml
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: comp_name Value: c++
+2024-09-20T09:34:38.915444Z|cov-build|70312|info|>         Node: comp_translator Value: g++
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: comp_lang Value: C++
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: comp_generic Value: gnu
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: id Value: g++-c++-.*
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-3/../user_nodefs.h
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: id Value: g++cc-c++-.*
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-g++-config-3/../user_nodefs.h
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>   Node: md5 Value: 6110077f86d72b6001f0d20220e5c335
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-javac-config-0\coverity_config.xml
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: comp_name Value: javac
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: comp_translator Value: javac
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: comp_lang Value: Static Java
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.916409Z|cov-build|70312|info|>         Node: id Value: javac-javac-.*
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-java-config-0\coverity_config.xml
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_name Value: java
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_translator Value: java
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_lang Value: Static Java
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: id Value: java-java-.*
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-apt-config-0\coverity_config.xml
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_name Value: apt
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_translator Value: apt
+2024-09-20T09:34:38.917372Z|cov-build|70312|info|>         Node: comp_lang Value: Static Java
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: id Value: apt-apt-.*
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-javaw-config-0\coverity_config.xml
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: comp_name Value: javaw
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: comp_translator Value: javaw
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: comp_lang Value: Static Java
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: id Value: javaw-javaw-.*
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-jar-config-0\coverity_config.xml
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.918369Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_name Value: jar
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_translator Value: jar
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: id Value: jar-jar-.*
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>   Node: md5 Value: 33ddf2457cbbfcbe629d047272f2329e
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-jsp-config-0\coverity_config.xml
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_translator Value: jsp
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.919365Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-android-config-0\coverity_config.xml
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: comp_translator Value: android
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: comp_generic Value: java
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml|gradlew|gradlew\.bat)$
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.920367Z|cov-build|70312|info|>   Node: md5 Value: f656edef6880a9092fcbe3e2cd89f87a
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-capture-config-files-config-0\coverity_config.xml
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: comp_translator Value: capture-config-files
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: comp_generic Value: capture_config_files
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: file_include_pattern Value: $capture-config-files$
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>   Node: md5 Value: b94e617f98adb465b84e44c2bb1187e2
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc-config-0\coverity_config.xml
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.921360Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: comp_name Value: cl
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: comp_translator Value: msvc
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: comp_generic Value: msvc
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: id Value: msvc-cl-.*
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: id Value: msvc_cxx-cl-.*
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>   Node: md5 Value: 6ff8accc4b09ad4e240f1b39a5f34507
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_devenv-config-0\coverity_config.xml
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.922357Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_name Value: devenv
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_translator Value: msvc_devenv
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_generic Value: msvc
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: id Value: msvc_devenv-devenv-.*
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_devenv-config-0/../user_nodefs.h
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>   Node: md5 Value: 9e7c8ebecfb66972e502b9a89af46eab
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_msbuild-config-0\coverity_config.xml
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_name Value: msbuild
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_translator Value: msvc_msbuild
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: comp_generic Value: msvc
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2024-09-20T09:34:38.923351Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_msbuild-config-0/../user_nodefs.h
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>   Node: md5 Value: e5c2e6f12a32bf80391c2b796b7efd24
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_link-config-0\coverity_config.xml
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: comp_name Value: link
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: comp_translator Value: msvc_link
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: comp_generic Value: msvc_link
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: id Value: msvc_link-link-.*
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_link-config-0/../user_nodefs.h
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>   Node: md5 Value: b1e089736178f146e1b07715b3996fec
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_lib-config-0\coverity_config.xml
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: comp_name Value: lib
+2024-09-20T09:34:38.924350Z|cov-build|70312|info|>         Node: comp_translator Value: msvc_lib
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: comp_generic Value: msvc_lib
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: id Value: msvc_lib-lib-.*
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-msvc_lib-config-0/../user_nodefs.h
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>   Node: md5 Value: 05f25d5becfea0c774651a40c16d3955
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-csc-config-0\coverity_config.xml
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: comp_name Value: csc
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: comp_translator Value: csc
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: comp_lang Value: C#
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: comp_generic Value: csc
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: id Value: csc-csc-.*
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.925345Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-csc-config-1\coverity_config.xml
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_name Value: csc2
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_translator Value: csc
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_lang Value: C#
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_generic Value: csc
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: id Value: csc-csc2-.*
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-csc-config-2\coverity_config.xml
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_name Value: csc.dll
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_translator Value: csc
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_lang Value: C#
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: comp_generic Value: csc
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: id Value: csc-csc.dll-.*
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.926344Z|cov-build|70312|info|>   Node: md5 Value: d7617a61a1e5d38ea17e0065e15a334c
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-dotnet-config-0\coverity_config.xml
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: comp_name Value: dotnet
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: comp_translator Value: dotnet
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: comp_lang Value: C#
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: comp_capture_descendants Value: true
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: comp_generic Value: dotnet
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: id Value: dotnet-dotnet-.*
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>   Node: md5 Value: c1f04f52f32e19ee321f007827420925
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-0\coverity_config.xml
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.927342Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_name Value: razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: id Value: razor-razor-.*
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>   Node: md5 Value: 299c29c5e1aed07e748c20434abece6a
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-1\coverity_config.xml
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.928335Z|cov-build|70312|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-.*
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>   Node: md5 Value: 012f7f10f25cb7255cd3da914f9303b2
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-2\coverity_config.xml
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation.dll
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation.dll-.*
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>   Node: md5 Value: f144074c0456b3d3fe4011b5d8b3db91
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-3\coverity_config.xml
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.929331Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x86
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x86-.*
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>   Node: md5 Value: 22238b5ed838db5e1a83a95e6b26b976
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-4\coverity_config.xml
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x64
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x64-.*
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|>   Node: md5 Value: bd398ee66245bba5a4125fd742fd562f
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.930328Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-5\coverity_config.xml
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x86.dll-.*
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>   Node: md5 Value: 580e3886424cb4bdad1f53dc515e78c7
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-razor-config-6\coverity_config.xml
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: comp_name Value: microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll
+2024-09-20T09:34:38.931325Z|cov-build|70312|info|>         Node: comp_translator Value: razor
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_lang Value: Razor
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_generic Value: razor
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: id Value: razor-microsoft.aspnetcore.mvc.razor.viewcompilation-x64.dll-.*
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>   Node: md5 Value: 004b0de293c07eddd6afd0f44b3a2d6e
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0\coverity_config.xml
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_name Value: clang
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_translator Value: clangcc
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_generic Value: clang
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: clangcc:android
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: clangcc:apple
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: clangcc:llvm
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: comp_is_redirect Value: true
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: id Value: clangcc-clang-.*
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.932321Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: id Value: clangcxx-clang-.*
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: id Value: clangcxxcc-clang-.*
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: id Value: clangobjc-clang-.*
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: id Value: clangobjcxx-clang-.*
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>   Node: md5 Value: 999eeab8f668f6ac09e46790d19b72ec
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcxx-config-0\coverity_config.xml
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.933320Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_name Value: clang++
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_translator Value: clangcxx
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_lang Value: C
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_generic Value: clang
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: clangcxx:android
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: clangcxx:apple
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: clangcxx:llvm
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: comp_is_redirect Value: true
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: id Value: clangcxx-clang++-.*
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcxx-config-0/../user_nodefs.h
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: id Value: clangcxxcc-clang++-.*
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcxx-config-0/../user_nodefs.h
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: id Value: clangobjc-clang++-.*
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcxx-config-0/../user_nodefs.h
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: id Value: clangobjcxx-clang++-.*
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-clangcxx-config-0/../user_nodefs.h
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|>   Node: md5 Value: db1ddc7eeb63c302f4d476ef2fa8942a
+2024-09-20T09:34:38.934317Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-javascript-config-0\coverity_config.xml
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: comp_translator Value: javascript
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib|cjs|mjs|map)$
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>   Node: md5 Value: 28137a21bdd7588523037a27a58d8c5c
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-html-config-0\coverity_config.xml
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.935313Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_translator Value: html
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>   Node: md5 Value: d7d10d6a1e70369dda56aa898ef86396
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-typescript-config-0\coverity_config.xml
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-typescript-0
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_translator Value: typescript
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: comp_generic Value: typescript
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*(\.(ts|tsx|cts|mts)$)|(tsconfig.json)$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.936308Z|cov-build|70312|info|>         Node: id Value: typescript-cov-filesystem-capture-typescript-0-.*
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>   Node: md5 Value: cf8788a68f3a4cc84a38e8030bdce56b
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-jsx-config-0\coverity_config.xml
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-jsx-0
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: comp_translator Value: jsx
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.jsx$
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-.*
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>   Node: md5 Value: 5d1e0d3949dd2e7d59d0ebbcb9d50844
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-vue-config-0\coverity_config.xml
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.937304Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-vue-0
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_translator Value: vue
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.vue$
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [.]cache[.]js$
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: id Value: vue-cov-filesystem-capture-vue-0-.*
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>   Node: md5 Value: 366ed949b2aaae956ba72f463b10a2c2
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-scalac-config-0\coverity_config.xml
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_name Value: scalac
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_translator Value: scalac
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_lang Value: Scala
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: comp_generic Value: scala
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.938304Z|cov-build|70312|info|>         Node: id Value: scalac-scalac-.*
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>   Node: md5 Value: 72f6e51a33977034a91c37366e5501cc
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-scala-config-0\coverity_config.xml
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_name Value: scala
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_translator Value: scala
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_lang Value: Scala
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_generic Value: scala
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: id Value: scala-scala-.*
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>   Node: md5 Value: 06e293540a5f4dc8f97f0f06a6021b74
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-vbc-config-0\coverity_config.xml
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_name Value: vbc
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_translator Value: vbc
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_lang Value: Visual Basic
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>         Node: comp_generic Value: vbc
+2024-09-20T09:34:38.939299Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: id Value: vbc-vbc-.*
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>   Node: md5 Value: feeb8b03a6f975f0aaca18abe6c96895
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-vbc-config-1\coverity_config.xml
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: comp_name Value: vbc.dll
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: comp_translator Value: vbc
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: comp_lang Value: Visual Basic
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: comp_generic Value: vbc
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: id Value: vbc-vbc.dll-.*
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>   Node: md5 Value: fb11aa1996139335dbc0bdc5b4851b37
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-ruby-config-0\coverity_config.xml
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2024-09-20T09:34:38.940297Z|cov-build|70312|info|>         Node: comp_translator Value: ruby
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: comp_generic Value: ruby
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*(\.rb|Gemfile)$
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>   Node: md5 Value: 9a95acc499de60467aeb7e3b29315f90
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-php-config-0\coverity_config.xml
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: comp_translator Value: php
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: comp_generic Value: php
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.ph(p|p[1-9]|tml)$
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|>   Node: md5 Value: a96edcebfed40db3833800e30a67af69
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.941294Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-python-config-0\coverity_config.xml
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_translator Value: python
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_generic Value: python
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.p(y|y3)$
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>   Node: md5 Value: fffe872853e56190241eb6585606928f
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-nvcc-config-0\coverity_config.xml
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_name Value: nvcc
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_translator Value: nvcc
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_lang Value: CUDA
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_generic Value: nvcc
+2024-09-20T09:34:38.942289Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: nvcc:qnx
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: nvcc:gnu
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: comp_autodetect_type Value: nvcc:msvc
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: comp_is_redirect Value: true
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: id Value: nvcc-nvcc-.*
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-nvcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: id Value: nvcc_c-nvcc-.*
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-nvcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: id Value: nvcc_cxx-nvcc-.*
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: opt_preinclude_file Value: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-nvcc-config-0/../user_nodefs.h
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>   Node: md5 Value: 466d2cf0b12aae8d4c08d59f370fbb4b
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-go-config-0\coverity_config.xml
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: comp_name Value: go
+2024-09-20T09:34:38.943287Z|cov-build|70312|info|>         Node: comp_translator Value: go
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_lang Value: Go
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_generic Value: go
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: id Value: go-go-.*
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>   Node: md5 Value: 395609931cebc474122a4d66367445f5
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-kotlinc-config-0\coverity_config.xml
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_name Value: kotlinc
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_translator Value: kotlinc
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_lang Value: Kotlin
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_generic Value: kotlin
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: id Value: kotlinc-kotlinc-.*
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>   Node: md5 Value: c68e7b6acd2042f4dec6d624b2d2aa7b
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-kotlin-config-0\coverity_config.xml
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_name Value: kotlin
+2024-09-20T09:34:38.944283Z|cov-build|70312|info|>         Node: comp_translator Value: kotlin
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: comp_lang Value: Kotlin
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: comp_generic Value: kotlin
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: id Value: kotlin-kotlin-.*
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>   Node: md5 Value: 1d37b51d78837c20116306c377ae2080
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-kotlin-module-config-0\coverity_config.xml
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-kotlin-module-0
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: comp_translator Value: kotlin-module
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: comp_generic Value: kotlin
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.kotlin_module$
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: id Value: kotlin-module-cov-filesystem-capture-kotlin-module-0-.*
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>   Node: md5 Value: 33c8dff4b1803fd1b46ff7624a34a01b
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|> Configuration read from: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\config\template-apex-config-0\coverity_config.xml
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|> Node: coverity
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>   Node: cit_version Value: 1
+2024-09-20T09:34:38.945284Z|cov-build|70312|info|>   Node: config
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>     Node: build
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>       Node: compiler
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: template_compiler Value: true
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: comp_name Value: cov-filesystem-capture-apex-0
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: comp_translator Value: apex
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: comp_generic Value: apex
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: file_include_pattern Value: ^.*\.(cls|tgr|page)$
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>       Node: options
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: id Value: apex-cov-filesystem-capture-apex-0-.*
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>         Node: begin_command_line_config
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|>   Node: md5 Value: 1fb05d61e492051b5d8339f9e71cc7cf
+2024-09-20T09:34:38.946274Z|cov-build|70312|info|> 
+2024-09-20T09:34:38.950264Z|cov-build|70312|info|> [STATUS] Running filesystem capture search...
+2024-09-20T09:34:39.004478Z|cov-build|70312|info|> [STATUS] Emitting 15 files from filesystem capture
+2024-09-20T09:34:39.004478Z|cov-build|70312|info|> No source files for template-jsp-config-0 (^.*\.(jsp|jspx)$ -> cov-filesystem-capture-jsp-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-android-config-0 (^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml|gradlew|gradlew\.bat)$ -> cov-filesystem-capture-android-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> BEGIN source files (5) for template-capture-config-files-config-0 (<config files> -> cov-filesystem-capture-capture-config-files-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-c4b58ba5.css
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package-lock.json
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package.json
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/public/Calculator.webp
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/index.css
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> END source files for template-capture-config-files-config-0 (<config files> -> cov-filesystem-capture-capture-config-files-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> BEGIN source files (5) for template-javascript-config-0 (^.*\.(js|xsjs|xsjslib|cjs|mjs|map)$ -> cov-filesystem-capture-javascript-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-71f84844.js
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/postcss.config.js
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/handleClick.js
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/tailwind.config.js
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/vite.config.js
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> END source files for template-javascript-config-0 (^.*\.(js|xsjs|xsjslib|cjs|mjs|map)$ -> cov-filesystem-capture-javascript-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> BEGIN source files (2) for template-html-config-0 (^.*\.(html|htm)$ -> cov-filesystem-capture-html-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/index.html
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/index.html
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> END source files for template-html-config-0 (^.*\.(html|htm)$ -> cov-filesystem-capture-html-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-typescript-config-0 (^.*(\.(ts|tsx|cts|mts)$)|(tsconfig.json)$ -> cov-filesystem-capture-typescript-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> BEGIN source files (3) for template-jsx-config-0 (^.*\.jsx$ -> cov-filesystem-capture-jsx-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/App.jsx
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/components/Button.jsx
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/main.jsx
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> END source files for template-jsx-config-0 (^.*\.jsx$ -> cov-filesystem-capture-jsx-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-vue-config-0 (^.*\.vue$ -> cov-filesystem-capture-vue-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-ruby-config-0 (^.*(\.rb|Gemfile)$ -> cov-filesystem-capture-ruby-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-php-config-0 (^.*\.ph(p|p[1-9]|tml)$ -> cov-filesystem-capture-php-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-python-config-0 (^.*\.p(y|y3)$ -> cov-filesystem-capture-python-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-kotlin-module-config-0 (^.*\.kotlin_module$ -> cov-filesystem-capture-kotlin-module-0)
+2024-09-20T09:34:39.005437Z|cov-build|70312|info|> No source files for template-apex-config-0 (^.*\.(cls|tgr|page)$ -> cov-filesystem-capture-apex-0)
+2024-09-20T09:34:43.796395Z|cov-translate|68520|output|> * Configuring JavaScript Filesystem Capture (javascript)
+2024-09-20T09:34:43.796395Z|cov-translate|72496|output|> * Configuring JavaScript Filesystem Capture (html)
+2024-09-20T09:34:43.796395Z|cov-translate|67220|output|> * Configuring Configuration Filesystem Capture
+2024-09-20T09:34:43.796395Z|cov-translate|72572|output|> * Configuring JavaScript Filesystem Capture (JSX)
+2024-09-20T09:34:43.819516Z|cov-translate|67220|output|> Added template compiler configuration instance C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/emit/DESKTOP-GRSMKQB/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+2024-09-20T09:34:43.819516Z|cov-translate|72496|output|> Added template compiler configuration instance C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/emit/DESKTOP-GRSMKQB/config/e256a35d9ed9bc024a26874e678bc5dd/coverity_config.xml
+2024-09-20T09:34:43.819516Z|cov-translate|72572|output|> Added template compiler configuration instance C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/emit/DESKTOP-GRSMKQB/config/a16713535945a1200f21a69c8b896d1c/coverity_config.xml
+2024-09-20T09:34:43.861374Z|cov-translate|68520|output|> Added template compiler configuration instance C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/emit/DESKTOP-GRSMKQB/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2024-09-20T09:34:43.864364Z|cov-translate|67220|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\86c0393db2dfc13f34bf36599b00f373\coverity_config.xml
+2024-09-20T09:34:43.864364Z|cov-translate|67220|output|> Node: coverity
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>   Node: config
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>     Node: include Value: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\86c0393db2dfc13f34bf36599b00f373\capture-config-files-config-0\coverity_config.xml
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\86c0393db2dfc13f34bf36599b00f373\capture-config-files-config-0\coverity_config.xml
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|> Node: coverity
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>   Node: config
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>     Node: build
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>       Node: compiler
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: comp_translator Value: capture-config-files
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: comp_desc Value: Configuration Filesystem Capture
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: comp_generic Value: capture_config_files
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-86c0393db2dfc13f34bf36599b00f373-0
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: is_compiler Value: true
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: is_linker Value: false
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>       Node: options
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-86c0393db2dfc13f34bf36599b00f373-0
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: template_config_option_id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: compile_options
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: prepend_arg Value: --language=capture-config-files
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: split
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>           Node: options
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: expand
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>           Node: options
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>             Node: intern_split_response_file_fn Value: line_split
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>         Node: begin_command_line_config
+2024-09-20T09:34:43.865361Z|cov-translate|67220|output|>   Node: md5 Value: 12deb9f53ca476e017dec4d144b3d388
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\e256a35d9ed9bc024a26874e678bc5dd\coverity_config.xml
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|> Node: coverity
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|>   Node: config
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|>     Node: include Value: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\e256a35d9ed9bc024a26874e678bc5dd\html-config-0\coverity_config.xml
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\e256a35d9ed9bc024a26874e678bc5dd\html-config-0\coverity_config.xml
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|> Node: coverity
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|>   Node: config
+2024-09-20T09:34:43.865361Z|cov-translate|72496|output|>     Node: build
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>       Node: compiler
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: comp_translator Value: html
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: comp_desc Value: JavaScript Filesystem Capture (html)
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: id Value: html-cov-filesystem-capture-html-0-e256a35d9ed9bc024a26874e678bc5dd-0
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: is_compiler Value: true
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: is_linker Value: false
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>       Node: options
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: id Value: html-cov-filesystem-capture-html-0-e256a35d9ed9bc024a26874e678bc5dd-0
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: template_config_option_id Value: html-cov-filesystem-capture-html-0-.*
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: compile_options
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: prepend_arg Value: --language=html
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: split
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>           Node: options
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: expand
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>           Node: options
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>             Node: intern_split_response_file_fn Value: line_split
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>         Node: begin_command_line_config
+2024-09-20T09:34:43.866400Z|cov-translate|72496|output|>   Node: md5 Value: b8ebf191a9343c4d893589ea5c6d869c
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\a16713535945a1200f21a69c8b896d1c\coverity_config.xml
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|> Node: coverity
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>   Node: config
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>     Node: include Value: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\a16713535945a1200f21a69c8b896d1c\jsx-config-0\coverity_config.xml
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\a16713535945a1200f21a69c8b896d1c\jsx-config-0\coverity_config.xml
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|> Node: coverity
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>   Node: config
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>     Node: build
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>       Node: compiler
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: comp_name Value: cov-filesystem-capture-jsx-0
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: comp_translator Value: jsx
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: comp_desc Value: JavaScript Filesystem Capture (JSX)
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-a16713535945a1200f21a69c8b896d1c-0
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: is_compiler Value: true
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: is_linker Value: false
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>       Node: options
+2024-09-20T09:34:43.866400Z|cov-translate|72572|output|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-a16713535945a1200f21a69c8b896d1c-0
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>         Node: template_config_option_id Value: jsx-cov-filesystem-capture-jsx-0-.*
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>         Node: compile_options
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>         Node: prepend_arg Value: --language=jsx
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>         Node: split
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>           Node: options
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>         Node: expand
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>           Node: options
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>             Node: intern_split_response_file_fn Value: line_split
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>         Node: begin_command_line_config
+2024-09-20T09:34:43.867374Z|cov-translate|72572|output|>   Node: md5 Value: 68b9ed1fe03a0c7f7ed68c8a58a46987
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\c8f9de1601ea66885a3e53408842da4f\coverity_config.xml
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|> Node: coverity
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>   Node: config
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>     Node: include Value: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\c8f9de1601ea66885a3e53408842da4f\javascript-config-0\coverity_config.xml
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|> Configuration read from: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\emit\DESKTOP-GRSMKQB\config\c8f9de1601ea66885a3e53408842da4f\javascript-config-0\coverity_config.xml
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|> Node: coverity
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>   Node: cit_version Value: 1
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>   Node: config
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>     Node: build
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>       Node: compiler
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: comp_translator Value: javascript
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: comp_lang Value: Non Compiled
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: comp_desc Value: JavaScript Filesystem Capture (javascript)
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: comp_generic Value: javascript
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-c8f9de1601ea66885a3e53408842da4f-0
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: is_compiler Value: true
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: is_linker Value: false
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>       Node: options
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-c8f9de1601ea66885a3e53408842da4f-0
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: template_config_option_id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: compile_options
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: prepend_arg Value: --language=javascript
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: split
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>           Node: options
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: expand
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>           Node: options
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>             Node: intern_split_response_file_fn Value: line_split
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>         Node: begin_command_line_config
+2024-09-20T09:34:43.876323Z|cov-translate|68520|output|>   Node: md5 Value: a2c70bedf30c88e9fec90fe2f43b438a
+2024-09-20T09:34:43.891526Z|cov-translate|68520|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-71f84844.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/postcss.config.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/handleClick.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/tailwind.config.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/vite.config.js"
+2024-09-20T09:34:43.891526Z|cov-translate|72496|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/index.html" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/index.html"
+2024-09-20T09:34:43.891526Z|cov-translate|67220|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-c4b58ba5.css" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package-lock.json" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package.json" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/public/Calculator.webp" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/index.css"
+2024-09-20T09:34:43.891526Z|cov-translate|72572|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/App.jsx" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/components/Button.jsx" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/main.jsx"
+2024-09-20T09:34:44.020120Z|cov-translate|72572|output|> [STATUS] Compiling 3 Non compiled source files.
+2024-09-20T09:34:44.022064Z|cov-translate|72572|output|> [STATUS] Compiling C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\App.jsx, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\components\Button.jsx, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\main.jsx
+2024-09-20T09:34:44.022064Z|cov-translate|72572|output|> "C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe" "--dir=C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int" --language=jsx --fs-capture-search ./ "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/App.jsx" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/components/Button.jsx" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/main.jsx" 
+2024-09-20T09:34:44.026055Z|cov-translate|72572|output|> Command line with response file: C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe @utf8@C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\cov-internal-emit-misc-c3d165f8197c947cf9d0b6c6062d4c10-0.cmd_args.txt
+2024-09-20T09:34:44.032030Z|cov-translate|68520|output|> [STATUS] Compiling 5 Non compiled source files.
+2024-09-20T09:34:44.032030Z|cov-translate|68520|output|> [STATUS] Compiling C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\assets\index-71f84844.js, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\postcss.config.js, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\handleClick.js, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\tailwind.config.js, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\vite.config.js
+2024-09-20T09:34:44.032030Z|cov-translate|68520|output|> "C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe" "--dir=C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int" --language=javascript --fs-capture-search ./ "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-71f84844.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/postcss.config.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/handleClick.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/tailwind.config.js" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/vite.config.js" 
+2024-09-20T09:34:44.034023Z|cov-translate|68520|output|> Command line with response file: C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe @utf8@C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\cov-internal-emit-misc-d21bb1e841201df8ac0453744f580711-0.cmd_args.txt
+2024-09-20T09:34:44.139812Z|cov-translate|67220|output|> [STATUS] Compiling 5 Non compiled source files.
+2024-09-20T09:34:44.139812Z|cov-translate|67220|output|> [STATUS] Compiling C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\assets\index-c4b58ba5.css, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\package-lock.json, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\package.json, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\public\Calculator.webp, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\index.css
+2024-09-20T09:34:44.139812Z|cov-translate|67220|output|> "C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe" "--dir=C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int" --language=capture-config-files --fs-capture-search ./ "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-c4b58ba5.css" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package-lock.json" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package.json" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/public/Calculator.webp" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/index.css" 
+2024-09-20T09:34:44.141734Z|cov-translate|67220|output|> Command line with response file: C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe @utf8@C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\cov-internal-emit-misc-68e08237b21bae77bdf00f3325068caa-0.cmd_args.txt
+2024-09-20T09:34:44.250450Z|cov-translate|72496|output|> [STATUS] Compiling 2 Non compiled source files.
+2024-09-20T09:34:44.251447Z|cov-translate|72496|output|> [STATUS] Compiling C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\index.html, C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\index.html
+2024-09-20T09:34:44.251447Z|cov-translate|72496|output|> "C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe" "--dir=C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int" --language=html --fs-capture-search ./ "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/index.html" "C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/index.html" 
+2024-09-20T09:34:44.252486Z|cov-translate|72496|output|> Command line with response file: C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-internal-emit-misc.exe @utf8@C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\cov-internal-emit-misc-e693215fac1a48af74ad6a886738375b-0.cmd_args.txt
+2024-09-20T09:34:44.352305Z|cov-translate|72496|output|> Coverity Internal Misc Emit version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:44.352305Z|cov-translate|72496|output|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:44.352305Z|cov-translate|72496|output|> 
+2024-09-20T09:34:44.352305Z|cov-translate|68520|output|> Coverity Internal Misc Emit version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:44.352305Z|cov-translate|68520|output|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:44.353301Z|cov-translate|68520|output|> 
+2024-09-20T09:34:44.353301Z|cov-translate|67220|output|> Coverity Internal Misc Emit version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:44.353301Z|cov-translate|67220|output|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:44.353301Z|cov-translate|67220|output|> 
+2024-09-20T09:34:44.353301Z|cov-translate|72572|output|> Coverity Internal Misc Emit version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:44.353301Z|cov-translate|72572|output|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:44.353301Z|cov-translate|72572|output|> 
+2024-09-20T09:34:44.457283Z|cov-translate|72496|output|> [INFO] Extracting JavaScript from 2 HTML files.
+2024-09-20T09:34:44.457283Z|cov-translate|72496|output|> [INFO] Extracting JavaScript from C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\index.html C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\index.html
+2024-09-20T09:34:44.469418Z|cov-translate|72496|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-extract-javascript-from-html.exe --input-html-file C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\index.html --output-file C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\xjs-7d108db6cc61d36637d8fdc3929fe14d\index.html_000.js --fs-capture-search . --language html 
+2024-09-20T09:34:44.469418Z|cov-translate|72496|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-extract-javascript-from-html.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/xjs-7d108db6cc61d36637d8fdc3929fe14d/extract-js-from-html-argfile-0.txt 
+2024-09-20T09:34:44.550148Z|cov-translate|72572|output|> [INFO] Transpiling 3 JSX files with the TypeScript compiler.
+2024-09-20T09:34:44.550148Z|cov-translate|72572|output|> [INFO] Transpiling C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\App.jsx C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\components\Button.jsx C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\main.jsx
+2024-09-20T09:34:44.582085Z|cov-translate|72572|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\node\node.exe --max-old-space-size=7124 C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\node\lib\node_modules\cov-typescript-native --summarize-files --system-encoding=windows-1252 "--outDir" "C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\jsxjs-e7196d32ed260a8ad4a25a9063186248\jsxjs-output-be035a36cef6e0aa49fa9e1fce7a51af" "--lib" "ES5,DOM,ES6,DOM.Iterable,ScriptHost" "--moduleResolution" "node" "--experimentalDecorators" "--target" "ES2020" "--jsx" "react" "--sourceMap" "--noEmitHelpers" "--allowUnreachableCode" "--allowUnusedLabels" "--disableSizeLimit" "--suppressExcessPropertyErrors" "--suppressImplicitAnyIndexErrors" "--noErrorTruncation" "--noImplicitUseStrict" "--noStrictGenericChecks" "--ignoreDeprecations" "5.0" "--allowJs" "--noResolve" "--forceJSX" "C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\App.jsx" "C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\components\Button.jsx" "C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\main.jsx" 
+2024-09-20T09:34:44.582085Z|cov-translate|72572|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\node\node.exe --max-old-space-size=7124 C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\node\lib\node_modules\cov-typescript-native --summarize-files --system-encoding=windows-1252 @C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/transpile-to-js-argfile-0.txt 
+2024-09-20T09:34:44.662430Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-0.link C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-71f84844.js 
+2024-09-20T09:34:44.662430Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-0.txt 
+2024-09-20T09:34:44.708025Z|cov-translate|72496|output|> Coverity Internal Extract JavaScript From HTML version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:44.708025Z|cov-translate|72496|output|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:44.708025Z|cov-translate|72496|output|> 
+2024-09-20T09:34:44.769818Z|cov-translate|67220|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-emit-text.exe --dir C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int -- C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\assets\index-c4b58ba5.css C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\package-lock.json C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\package.json C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\public\Calculator.webp C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\src\index.css 
+2024-09-20T09:34:44.769818Z|cov-translate|67220|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-emit-text.exe --dir C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-470c27439692cfd5ebf8c4b308b57da2/emit-text-argfile-0.txt 
+2024-09-20T09:34:44.777791Z|cov-translate|72496|output|> No JavaScript to extract from C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/index.html
+2024-09-20T09:34:44.778789Z|cov-translate|72496|output|> 
+2024-09-20T09:34:44.829617Z|cov-translate|72496|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-emit-text.exe --dir C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int --html --cov-emit-invocation-id 1 -- C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\dist\index.html 
+2024-09-20T09:34:44.829617Z|cov-translate|72496|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-emit-text.exe --dir C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int --html --cov-emit-invocation-id 1 @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/xjs-7d108db6cc61d36637d8fdc3929fe14d/emit-text-argfile-0.txt 
+2024-09-20T09:34:45.145561Z|cov-translate|68520|output|> [INFO] JavaScript source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-71f84844.js'
+2024-09-20T09:34:45.225485Z|cov-translate|67220|output|> Detected ISO-8859-1 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-c4b58ba5.css
+2024-09-20T09:34:45.240746Z|cov-translate|67220|output|> Detected ISO-8859-1 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package-lock.json
+2024-09-20T09:34:45.247722Z|cov-translate|67220|output|> Detected ISO-8859-1 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package.json
+2024-09-20T09:34:45.255695Z|cov-translate|67220|output|> Detected windows-1252 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/public/Calculator.webp
+2024-09-20T09:34:45.258685Z|cov-translate|67220|output|> Detected ISO-8859-1 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/index.css
+2024-09-20T09:34:45.301542Z|cov-translate|72496|output|> Detected ISO-8859-1 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/index.html
+2024-09-20T09:34:45.306525Z|cov-translate|67220|output|> cov-internal-emit-misc.exe took 1s
+2024-09-20T09:34:45.306525Z|cov-translate|67220|output|> 
+2024-09-20T09:34:45.308519Z|cov-translate|72496|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-extract-javascript-from-html.exe --input-html-file C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\index.html --output-file C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int\tmp\xjs-7d108db6cc61d36637d8fdc3929fe14d\index.html_000.js --fs-capture-search . --language html 
+2024-09-20T09:34:45.308519Z|cov-translate|72496|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-extract-javascript-from-html.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/xjs-7d108db6cc61d36637d8fdc3929fe14d/extract-js-from-html-argfile-1.txt 
+2024-09-20T09:34:45.316493Z|cov-translate|67220|output|> 
+2024-09-20T09:34:45.324466Z|cov-translate|72496|output|> Coverity Internal Extract JavaScript From HTML version 2023.12.2 on Windows 10 Enterprise, 64-bit (build 19045)
+2024-09-20T09:34:45.324466Z|cov-translate|72496|output|> Internal version numbers: 78329b8295 p-2023.12-push-50
+2024-09-20T09:34:45.324466Z|cov-translate|72496|output|> 
+2024-09-20T09:34:45.328453Z|cov-build|70312|info|> cov-translate exited with code 0
+2024-09-20T09:34:45.330447Z|cov-translate|72496|output|> No JavaScript to extract from C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/index.html
+2024-09-20T09:34:45.330447Z|cov-translate|72496|output|> 
+2024-09-20T09:34:45.333438Z|cov-translate|72496|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-emit-text.exe --dir C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int --html --cov-emit-invocation-id 1 -- C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\index.html 
+2024-09-20T09:34:45.333438Z|cov-translate|72496|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-emit-text.exe --dir C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project\cov-int --html --cov-emit-invocation-id 1 @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/xjs-7d108db6cc61d36637d8fdc3929fe14d/emit-text-argfile-1.txt 
+2024-09-20T09:34:45.418414Z|cov-translate|72496|output|> Detected ISO-8859-1 encoding for C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/index.html
+2024-09-20T09:34:45.434360Z|cov-translate|72496|output|> cov-internal-emit-misc.exe took 1s
+2024-09-20T09:34:45.434360Z|cov-translate|72496|output|> 
+2024-09-20T09:34:45.440340Z|cov-translate|72496|output|> 
+2024-09-20T09:34:45.443330Z|cov-translate|68520|output|> [INFO] Total functions: 591
+2024-09-20T09:34:45.448314Z|cov-build|70312|info|> cov-translate exited with code 0
+2024-09-20T09:34:45.452300Z|cov-translate|68520|output|> [INFO] Minified, human-unreadable
+2024-09-20T09:34:45.611352Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-1.link C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/postcss.config.js 
+2024-09-20T09:34:45.611352Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-1.txt 
+2024-09-20T09:34:45.629289Z|cov-translate|68520|output|> [INFO] JavaScript source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/postcss.config.js'
+2024-09-20T09:34:45.644240Z|cov-translate|68520|output|> [INFO] Total functions: 1
+2024-09-20T09:34:45.655205Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-2.link C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/handleClick.js 
+2024-09-20T09:34:45.655205Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-2.txt 
+2024-09-20T09:34:45.674140Z|cov-translate|68520|output|> [INFO] JavaScript source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/handleClick.js'
+2024-09-20T09:34:45.685110Z|cov-translate|68520|output|> [INFO] Total functions: 1
+2024-09-20T09:34:45.696102Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-3.link C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/tailwind.config.js 
+2024-09-20T09:34:45.696102Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-3.txt 
+2024-09-20T09:34:45.715025Z|cov-translate|68520|output|> [INFO] JavaScript source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/tailwind.config.js'
+2024-09-20T09:34:45.728955Z|cov-translate|68520|output|> [INFO] Total functions: 1
+2024-09-20T09:34:45.745921Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-4.link C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/vite.config.js 
+2024-09-20T09:34:45.745921Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-4.txt 
+2024-09-20T09:34:45.762886Z|cov-translate|68520|output|> [INFO] JavaScript source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/vite.config.js'
+2024-09-20T09:34:45.776863Z|cov-translate|68520|output|> [WARNING] Unable to resolve ES6 module 'vite'
+2024-09-20T09:34:45.778846Z|cov-translate|68520|output|> [WARNING] Unable to resolve ES6 module '@vitejs/plugin-react'
+2024-09-20T09:34:45.778846Z|cov-translate|68520|output|> [INFO] Total functions: 1
+2024-09-20T09:34:45.799788Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-5.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/es3.js 
+2024-09-20T09:34:45.799788Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-5.txt 
+2024-09-20T09:34:45.933309Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-6.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/es5.js 
+2024-09-20T09:34:45.933309Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-6.txt 
+2024-09-20T09:34:46.009059Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-7.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/fileapi.js 
+2024-09-20T09:34:46.009059Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-7.txt 
+2024-09-20T09:34:46.087794Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-8.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/html5.js 
+2024-09-20T09:34:46.087794Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-8.txt 
+2024-09-20T09:34:46.175489Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-9.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/w3c_css.js 
+2024-09-20T09:34:46.175489Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-9.txt 
+2024-09-20T09:34:46.248256Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-10.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/w3c_dom1.js 
+2024-09-20T09:34:46.248256Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-10.txt 
+2024-09-20T09:34:46.317057Z|cov-translate|68520|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --encoding US-ASCII --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 3 --extern --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/frontend-emit-11.link C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/window.js 
+2024-09-20T09:34:46.317057Z|cov-translate|68520|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/cejf-518999b57c2f02043e6a23307b812856/fe-to-json-argfile-11.txt 
+2024-09-20T09:34:46.383769Z|cov-translate|68520|output|> cov-internal-emit-misc.exe took 2s
+2024-09-20T09:34:46.383769Z|cov-translate|68520|output|> 
+2024-09-20T09:34:46.391154Z|cov-translate|68520|output|> 
+2024-09-20T09:34:46.399110Z|cov-build|70312|info|> cov-translate exited with code 0
+2024-09-20T09:34:49.411236Z|cov-translate|72572|output|> [INFO] tsc exited with code 0.
+2024-09-20T09:34:49.417136Z|cov-translate|72572|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 2 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/frontend-emit-0.link --transpiled-from-language jsx C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/jsxjs-output-be035a36cef6e0aa49fa9e1fce7a51af/App.js 
+2024-09-20T09:34:49.417136Z|cov-translate|72572|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/fe-to-json-argfile-0.txt 
+2024-09-20T09:34:49.442513Z|cov-translate|72572|output|> [INFO] JavaScript transpiled from source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/App.jsx'
+2024-09-20T09:34:49.459392Z|cov-translate|72572|output|> [INFO] Resolved ECMAScript module './components/Button.jsx' to file 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/components/Button.jsx'
+2024-09-20T09:34:49.460389Z|cov-translate|72572|output|> [WARNING] Unable to resolve ES6 module 'react'
+2024-09-20T09:34:49.462381Z|cov-translate|72572|output|> [INFO] Total functions: 16
+2024-09-20T09:34:49.478690Z|cov-translate|72572|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 2 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/frontend-emit-1.link --transpiled-from-language jsx C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/jsxjs-output-be035a36cef6e0aa49fa9e1fce7a51af/components/Button.js 
+2024-09-20T09:34:49.478690Z|cov-translate|72572|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/fe-to-json-argfile-1.txt 
+2024-09-20T09:34:49.494606Z|cov-translate|72572|output|> [INFO] JavaScript transpiled from source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/components/Button.jsx'
+2024-09-20T09:34:49.506555Z|cov-translate|72572|output|> [WARNING] Unable to resolve ES6 module 'react'
+2024-09-20T09:34:49.507557Z|cov-translate|72572|output|> [INFO] Total functions: 3
+2024-09-20T09:34:49.524460Z|cov-translate|72572|output|> [INFO] Expanded command line: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --cov-emit-invocation-id 2 --link-file C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/frontend-emit-2.link --transpiled-from-language jsx C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/jsxjs-output-be035a36cef6e0aa49fa9e1fce7a51af/main.js 
+2024-09-20T09:34:49.524460Z|cov-translate|72572|output|> [INFO] Command line with response file: C:\Users\Sherry's pc\Downloads\cov-analysis-win64-2023.12.2\cov-analysis-win64-2023.12.2\bin\cov-internal-js-fe.exe @utf8@C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int/tmp/jsxjs-e7196d32ed260a8ad4a25a9063186248/fe-to-json-argfile-2.txt 
+2024-09-20T09:34:49.543398Z|cov-translate|72572|output|> [INFO] JavaScript transpiled from source file: 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/main.jsx'
+2024-09-20T09:34:49.557383Z|cov-translate|72572|output|> [WARNING] Unable to resolve ES6 module 'react'
+2024-09-20T09:34:49.557383Z|cov-translate|72572|output|> [WARNING] Unable to resolve ES6 module 'react-dom/client'
+2024-09-20T09:34:49.557383Z|cov-translate|72572|output|> [INFO] Resolved ECMAScript module './App.jsx' to file 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/App.jsx'
+2024-09-20T09:34:49.557383Z|cov-translate|72572|output|> [INFO] Resolved ECMAScript module './index.css' to file 'C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/index.css'
+2024-09-20T09:34:49.558462Z|cov-translate|72572|output|> [INFO] Total functions: 1
+2024-09-20T09:34:49.587560Z|cov-translate|72572|output|> cov-internal-emit-misc.exe took 5s
+2024-09-20T09:34:49.587560Z|cov-translate|72572|output|> 
+2024-09-20T09:34:49.594536Z|cov-translate|72572|output|> 
+2024-09-20T09:34:49.601511Z|cov-build|70312|info|> cov-translate exited with code 0
+2024-09-20T09:34:49.603504Z|cov-build|70312|info|> Invoking cov-security-da with commands: C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-security-da.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --project-dirs ./
+2024-09-20T09:35:15.369811Z|cov-build|70312|info|> Dynamic analyzer took 25766 ms
+2024-09-20T09:35:15.369811Z|cov-build|70312|info|> Build time (cov-build overall): 00:00:39.190112
+2024-09-20T09:35:15.370811Z|cov-build|70312|info|> 
+2024-09-20T09:35:15.374721Z|cov-build|70312|info|> Build time (HTML/JavaScript/Text emits total): 00:00:29.399573
+2024-09-20T09:35:15.374721Z|cov-build|70312|info|> 
+2024-09-20T09:35:15.379901Z|cov-build|70312|info|> Emitted 8 JavaScript compilation units (100%) successfully
+2024-09-20T09:35:15.379901Z|cov-build|70312|info|> 
+2024-09-20T09:35:15.382894Z|cov-build|70312|info|> 8 JavaScript compilation units (100%) are ready for analysis
+2024-09-20T09:35:15.383891Z|cov-build|70312|info|> The cov-build utility completed successfully.
+2024-09-20T09:35:15.755408Z|cov-build|70312|info|> 

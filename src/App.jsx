@@ -13,7 +13,7 @@ function App() {
     function handleClick(number){
 
 
-        let Result;
+        let Result ;
         const f_input=+firstInput
         if(number === '%'){
             if (firstInput !== '' && secondInput !== '' && symbolInput !== ''){

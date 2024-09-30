@@ -1,0 +1,11 @@
+# Version: 78329b8295 p-2023.12-push-50
+# Command Line: C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/bin/cov-security-da.exe --dir C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/cov-int --project-dirs ./
+timer                                      ms      calls
+--------------------------------------------------------
+cov_security_da::run                    25484          1
+  cov_security_da::doJSTemplateDA       25469          1
+
+activity                                   ms      calls
+--------------------------------------------------------
+cov_security_da::run                    25484          1
+cov_security_da::doJSTemplateDA         25469          1

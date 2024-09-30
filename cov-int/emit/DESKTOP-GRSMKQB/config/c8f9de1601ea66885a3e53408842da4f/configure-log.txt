@@ -1,0 +1,8 @@
+Native Compiler invocation: ./ --coverity_resp_file=C:\Users\SHERRY~1\AppData\Local\Temp\cov-Sherry's pc\3b577a57a779394a5d948992431c9523\fs-capture-resp-file2
+Working directory: C:\Users\Sherry's pc\Desktop\React\Calculator\01-starting-project
+Comptype: javascript
+* Configuring JavaScript Filesystem Capture (javascript)
+Checking for 'mount' command
+Checking for Cygwin registry keys
+           * HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin
+           * HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Cygnus Solutions\Cygwin

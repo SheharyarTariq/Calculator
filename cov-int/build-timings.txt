@@ -1,0 +1,31 @@
+# Version: 78329b8295 p-2023.12-push-50
+# Command Line: cov-build --dir cov-int --no-command --fs-capture-search ./
+timer                                 ms      calls
+---------------------------------------------------
+cov-build                          37906          1
+  create_or_open emit DB              63          1
+    open emit DB                      63          1
+  add_string_to_table                  0          8
+  addEmitFileName                      0          1
+  addEnvironmentVars                  16          1
+    add_string_to_table                0         50
+  Prepare capture                     15          1
+  FileSystemCapture                10656          1
+  SecurityDA                       25782          1
+  TUInfo::getPrimarySFRow              0         22
+  TUInfo::getPrimaryFileName           0          5
+  (left over)                       1374
+
+activity                              ms      calls
+---------------------------------------------------
+cov-build                          37906          1
+create_or_open emit DB                63          1
+open emit DB                          63          1
+add_string_to_table                    0         58
+addEmitFileName                        0          1
+addEnvironmentVars                    16          1
+Prepare capture                       15          1
+FileSystemCapture                  10656          1
+SecurityDA                         25782          1
+TUInfo::getPrimarySFRow                0         22
+TUInfo::getPrimaryFileName             0          5

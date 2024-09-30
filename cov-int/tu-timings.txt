@@ -1,0 +1,103 @@
+Translation unit:
+22 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/main.jsx
+cov-internal-emit-misc invocation time (seconds): 5
+cov-translate invocation time (seconds): 10
+cov-build invocation time (seconds): 39
+Translation unit:
+21 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/components/Button.jsx
+cov-internal-emit-misc invocation time (seconds): 5
+cov-translate invocation time (seconds): 10
+cov-build invocation time (seconds): 39
+Translation unit:
+20 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/App.jsx
+cov-internal-emit-misc invocation time (seconds): 5
+cov-translate invocation time (seconds): 10
+cov-build invocation time (seconds): 39
+Translation unit:
+12 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/vite.config.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+19 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/window.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+18 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/w3c_dom1.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+17 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/w3c_css.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+16 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/html5.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+15 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/fileapi.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+14 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/es5.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+13 -> C:/Users/Sherry's pc/Downloads/cov-analysis-win64-2023.12.2/cov-analysis-win64-2023.12.2/closure-compiler/externs/es3.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+11 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/tailwind.config.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+10 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/handleClick.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+9 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/postcss.config.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+8 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-71f84844.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 7
+cov-build invocation time (seconds): 39
+Translation unit:
+7 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/index.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 1
+cov-build invocation time (seconds): 39
+Translation unit:
+6 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/index.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 1
+cov-build invocation time (seconds): 39
+Translation unit:
+1 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/dist/assets/index-c4b58ba5.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 39
+Translation unit:
+5 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/src/index.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 39
+Translation unit:
+4 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/public/Calculator.webp (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 39
+Translation unit:
+3 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package.json (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 39
+Translation unit:
+2 -> C:/Users/Sherry's pc/Desktop/React/Calculator/01-starting-project/package-lock.json (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 39
