@@ -205,7 +205,7 @@ function App() {
 
                   </div>
                   <div className={`grid grid-cols-4 p-2 space-x-2 ${Background}`}>
-                      <div className={`grid col-span-2`}>
+                      <div className={`grid col-span-1`}>
                           <Button handleClick={handleClick} bg={background} >0</Button></div>
                       <Button handleClick={handleClick} bg={background}>.</Button>
                       <Button handleClick={handleClick} bg={background1}>=</Button>
