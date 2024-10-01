@@ -14,6 +14,7 @@ function App() {
 
 
         let Result ;
+
         const f_input=+firstInput
         if(number === '%'){
             if (firstInput !== '' && secondInput !== '' && symbolInput !== ''){
