@@ -24,6 +24,6 @@ jobs:
       - name: Run GPT Lint
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GPT_API_KEY: ${{ secrets.GPT_API_KEY }} # Add your GPT API key in GitHub Secrets
+          GPT_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Add your GPT API key in GitHub Secrets
         run: |
           npx gptlint . # Adjust this command as necessary for your linting tool
