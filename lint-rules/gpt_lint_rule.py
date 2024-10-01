@@ -13,6 +13,9 @@ class GPTLintRule(CommitRule):
         violations = []
         files_changed = self.get_files_changed()
 
+        if not files_changed:
+            return violations  # No files changed, return empty violations
+
         for file in files_changed:
             prompt = self.create_gpt_prompt(file)
             gpt_response = self.get_gpt_response(prompt)
@@ -24,12 +27,15 @@ class GPTLintRule(CommitRule):
         return violations
 
     def get_files_changed(self):
-        # Logic to get changed files
-        pass
+        # Fetch the files changed in the commit
+        return self.commit.get_files()  # Update this based on your commit object
 
     def create_gpt_prompt(self, file):
-        # Create GPT prompt by reading the file contents
-        pass
+        # Read the contents of the file
+        with open(file, 'r') as f:
+            content = f.read()
+        # Create a prompt for GPT
+        return f"Analyze the following code for issues:\n\n{content}"
 
     def get_gpt_response(self, prompt):
         response = openai.Completion.create(
