@@ -1,0 +1,29 @@
+name: GPT Lint Review
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  gptlint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run GPT Lint
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GPT_API_KEY: ${{ secrets.GPT_API_KEY }} # Add your GPT API key in GitHub Secrets
+        run: |
+          npx gptlint . # Adjust this command as necessary for your linting tool

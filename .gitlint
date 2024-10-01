@@ -1,0 +1,5 @@
+rules:
+  commit-message:
+    max_length: 72
+    min_length: 10
+    message: "Commit message must be between 10 and 72 characters."
