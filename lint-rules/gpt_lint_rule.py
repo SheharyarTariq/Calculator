@@ -2,10 +2,12 @@ from gitlint.rules import CommitRule, RuleViolation
 import openai
 import os
 
+# Fetch the API key from environment variable
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
 class GPTLintRule(CommitRule):
     name = "gpt-lint"
-    id = "TL1"
+    id = "G1"  # Changed id to 'G1' (or any non-reserved id)
 
     def apply(self, commit):
         files_changed = self.get_files_changed()
