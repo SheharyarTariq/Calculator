@@ -1,29 +1,42 @@
-name: GPT Lint Review
+name: GPTLint with ChatGPT
 
 on:
   pull_request:
-    branches:
-      - main
+    types: [opened, synchronize]
 
 jobs:
-  gptlint:
+  gpt-lint:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          node-version: '18'
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai requests
 
-      - name: Run GPT Lint
+      - name: Get changed files
+        id: changes
+        run: |
+          echo "::set-output name=files::$(git diff --name-only HEAD^ HEAD)"
+        shell: bash
+
+      - name: Analyze files with ChatGPT
+        run: |
+          python analyze_changes.py "${{ steps.changes.outputs.files }}"
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Post ChatGPT comments to PR
+        run: |
+          python post_comments.py "${{ github.event.pull_request.number }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GPT_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Add your GPT API key in GitHub Secrets
-        run: |
-          npx gptlint . # Adjust this command as necessary for your linting tool
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
