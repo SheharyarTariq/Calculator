@@ -14,6 +14,7 @@ function App() {
     function handleClick(number){
 
 
+
         let Result ;
 
         const f_input=+firstInput
