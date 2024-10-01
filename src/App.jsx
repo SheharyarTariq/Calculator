@@ -6,9 +6,7 @@ function App() {
 
     const [firstInput, setFirstInput] = useState('');
     const [secondInput, setSecondInput] = useState('');
-
     const [symbolInput, setSymbolInput] = useState('');
-
     const [input, setInput] = useState('');
     const [result, setResult] = useState('');
 
