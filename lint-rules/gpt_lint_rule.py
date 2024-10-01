@@ -1,6 +1,8 @@
 from gitlint.rules import CommitRule, RuleViolation
 import openai
+import os
 
+openai.api_key = os.getenv("OPENAI_API_KEY")
 class GPTLintRule(CommitRule):
     name = "gpt-lint"
     id = "TL1"
