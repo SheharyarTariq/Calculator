@@ -1,0 +1,9 @@
+# .gitlint
+rules:
+  # Example rules
+  "title-max-length":
+    type: "error"
+    args: [72]
+  "body-max-length":
+    type: "error"
+    args: [72]
