@@ -14,12 +14,24 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Get changed files
+        run: |
+          # Use `github.event.before` if available, fallback to HEAD^ if not
+          if [ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]; then
+            # First commit or new branch PR
+            BASE_COMMIT=$(git rev-parse HEAD^)
+          else
+            BASE_COMMIT=${{ github.event.before }}
+          fi
+
+          # Fetch changes between the base commit and current commit
+          CHANGED_FILES=$(git diff --name-only $BASE_COMMIT ${{ github.sha }})
+
+          # Display changed files for debugging
+          echo "Changed files: $CHANGED_FILES"
+
       - name: Run GPT Security Linter
         run: |
-          # Get changed files
-          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-          
-          # Iterate through each changed file
           for FILE in $CHANGED_FILES; do
             # Send the file content to GPT for security analysis
             CONTENT=$(cat $FILE)
