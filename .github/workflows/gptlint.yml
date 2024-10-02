@@ -7,20 +7,26 @@ on:
 jobs:
   security-lint:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          # Fetch full git history so that commit comparisons work properly
+          fetch-depth: 0
 
       - name: Install dependencies
         run: npm install
 
       - name: Get changed files
         run: |
-          # Use `github.event.before` if available, fallback to HEAD^ if not
+          # Check if it's a new PR (no `before` commit)
           if [ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]; then
-            # First commit or new branch PR
-            BASE_COMMIT=$(git rev-parse HEAD^)
+            # For new PRs or first commit, compare with the main branch
+            git fetch origin main
+            BASE_COMMIT="origin/main"
           else
+            # Use the commit before the PR for comparison
             BASE_COMMIT=${{ github.event.before }}
           fi
 
