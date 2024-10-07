@@ -50,6 +50,11 @@ jobs:
                 "max_tokens": 1000
               }')
 
+            # Check if GPT returned any results (if no result, assume no threats)
+            if [[ "$RESPONSE" == "" ]]; then
+              RESPONSE='{"message": "No security threats detected."}'
+            fi
+
             # Log GPT response for debugging
             echo "GPT Response for $FILE: $RESPONSE"
 

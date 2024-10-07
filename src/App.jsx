@@ -6,15 +6,12 @@ function App() {
 
     const [firstInput, setFirstInput] = useState('');
     const [secondInput, setSecondInput] = useState('');
-
     const [symbolInput, setSymbolInput] = useState('');
     const [input, setInput] = useState('');
     const [result, setResult] = useState('');
 
 
     function handleClick(number){
-
-
 
         let Result ;
 
@@ -26,13 +23,13 @@ function App() {
 
                 if( symbolInput === '/'){
                     Result=f_input / s_input;
+                }else if( symbolInput === '+'){
+                    Result=f_input + s_input;
                 }
                 else if( symbolInput === '*'){
                     Result=f_input * s_input;
                 }
-                else if( symbolInput === '+'){
-                    Result=f_input + s_input;
-                }
+
                 else if( symbolInput === '-'){
                     Result=f_input - s_input;
                 }
