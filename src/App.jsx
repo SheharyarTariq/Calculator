@@ -3,14 +3,11 @@ import {useState} from "react";
 import React from "react";
 function App() {
 
-
     const [firstInput, setFirstInput] = useState('');
     const [secondInput, setSecondInput] = useState('');
     const [symbolInput, setSymbolInput] = useState('');
     const [input, setInput] = useState('');
     const [result, setResult] = useState('');
-
-
     function handleClick(number){
 
         let Result ;
@@ -87,7 +84,36 @@ function App() {
             }
         }
 
-        if(  number === '/' || number === '*' || number === '-' || number === '+'){
+
+
+        if( number === '='){
+            const f_input=+firstInput;
+            const s_input=+secondInput;
+
+            let Result;
+
+            if( symbolInput === '/'){
+                Result=f_input/s_input;
+            }
+            if( symbolInput === '*'){
+                Result=f_input*s_input;
+            }
+            if( symbolInput === '+'){
+                Result=f_input+s_input;
+            }
+            if( symbolInput === '-'){
+                Result=f_input-s_input;
+            }
+
+            setResult(prevState=>(prevState+Result));
+
+            setFirstInput('');
+            setFirstInput(prevState=>(prevState+Result));
+            setSecondInput('');
+            setInput('');
+            // setInput(prevState=>(prevState+Result));
+            setSymbolInput('');
+            }        if(  number === '/' || number === '*' || number === '-' || number === '+'){
 
             if(firstInput !=='' && secondInput !==''){
                 const f_input=+firstInput;
@@ -123,35 +149,6 @@ function App() {
             setSymbolInput(number);
         }
 
-
-        if( number === '='){
-            const f_input=+firstInput;
-            const s_input=+secondInput;
-
-            let Result;
-
-            if( symbolInput === '/'){
-                Result=f_input/s_input;
-            }
-            if( symbolInput === '*'){
-                Result=f_input*s_input;
-            }
-            if( symbolInput === '+'){
-                Result=f_input+s_input;
-            }
-            if( symbolInput === '-'){
-                Result=f_input-s_input;
-            }
-
-            setResult(prevState=>(prevState+Result));
-
-            setFirstInput('');
-            setFirstInput(prevState=>(prevState+Result));
-            setSecondInput('');
-            setInput('');
-            // setInput(prevState=>(prevState+Result));
-            setSymbolInput('');
-            }
     }
 
 
