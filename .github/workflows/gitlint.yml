@@ -1,0 +1,26 @@
+name: GitLint
+
+on:
+  pull_request:
+    branches:
+      - main  # Change to your default branch if it's not 'main'
+
+jobs:
+  gitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Use the latest version of Python
+
+      - name: Install GitLint
+        run: |
+          python -m pip install --upgrade pip
+          pip install gitlint
+
+      - name: Run GitLint
+        run: gitlint

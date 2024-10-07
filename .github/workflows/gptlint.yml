@@ -1,29 +1,68 @@
-name: GPT Lint Review
+name: GPT Security Linter
 
 on:
   pull_request:
-    branches:
-      - main
+    types: [opened, synchronize]
 
 jobs:
-  gptlint:
+  security-lint:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          # Fetch full git history so that commit comparisons work properly
+          fetch-depth: 0
 
       - name: Install dependencies
         run: npm install
 
-      - name: Run GPT Lint
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GPT_API_KEY: ${{ secrets.OPENAI_API_KEY }} # Add your GPT API key in GitHub Secrets
+      - name: Get changed files
         run: |
-          npx gptlint . # Adjust this command as necessary for your linting tool
+          # Check if it's a new PR (no `before` commit)
+          if [ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]; then
+            # For new PRs or first commit, compare with the main branch
+            git fetch origin main
+            BASE_COMMIT="origin/main"
+          else
+            # Use the commit before the PR for comparison
+            BASE_COMMIT=${{ github.event.before }}
+          fi
+
+          # Fetch changes between the base commit and current commit
+          CHANGED_FILES=$(git diff --name-only $BASE_COMMIT ${{ github.sha }})
+
+          # Display changed files for debugging
+          echo "Changed files: $CHANGED_FILES"
+
+      - name: Run GPT Security Linter
+        run: |
+          for FILE in $CHANGED_FILES; do
+            # Send the file content to GPT for security analysis
+            CONTENT=$(cat $FILE)
+            RESPONSE=$(curl -X POST https://api.openai.com/v1/completions \
+              -H "Authorization: Bearer $OPENAI_API_KEY" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "model": "gpt-4",
+                "prompt": "Are there any security risks in the following code? '$CONTENT'. Answer in JSON format...",
+                "max_tokens": 1000
+              }')
+
+            # Check if GPT returned any results (if no result, assume no threats)
+            if [[ "$RESPONSE" == "" ]]; then
+              RESPONSE='{"message": "No security threats detected."}'
+            fi
+
+            # Log GPT response for debugging
+            echo "GPT Response for $FILE: $RESPONSE"
+
+            # Post response to GitHub as a comment
+            COMMENT="### Security Analysis for $FILE\n$RESPONSE"
+            curl -X POST \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+              -d "{\"body\": \"$COMMENT\"}"
+          done
